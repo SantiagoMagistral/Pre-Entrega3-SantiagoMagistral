@@ -1,0 +1,18 @@
+
+header{
+    section{
+        nav{
+            background-color: $bg-home;            
+        }
+    }
+}
+
+ .navbar a {
+    color: $color-font;
+    font-family: $letra-font;
+    font-size: 1.2rem;
+ }
+
+.fondo:hover {
+    color: rgba(40, 133, 40, 0.719);     
+}

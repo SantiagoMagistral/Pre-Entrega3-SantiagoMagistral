@@ -1,0 +1,70 @@
+.pie{
+    background-color: #1E1D45;
+    width: 100%;
+    display: map-get($map: $flexbox, $key: disp-flex );
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+ }
+ .pie__seguinos{
+    flex-wrap: wrap;
+    @extend %flexcolumn;
+    align-content: space-between;
+    justify-content: space-around;
+    list-style: none;
+ }
+ .pie__seguinos ul{
+   list-style: none;
+ }
+ .pie__seguinos h2{
+   @extend %tipoletra;
+}
+ .pie__mapa{
+    display: map-get($map: $flexbox, $key: disp-flex );
+    align-items: center;
+    padding: 10px;
+ }
+ .pie__mapa iframe{
+    height: 30vh;
+    width: 40vw;
+ }
+ .pie__datos{
+   @extend %flexcolumn;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ }
+ .pie__datos h2{
+   @extend %tipoletra;
+ }
+ .pie__datos{
+    list-style: none;
+    text-decoration: none;
+    align-content: space-around;
+ }
+ .pie__datos a{
+   @extend %tipoletra;
+ }
+ .pie__datos__img{
+    display: map-get($map: $flexbox, $key: disp-flex );
+    align-items: center;
+ }
+ .pie__seguinos img:hover {
+    transform:scale(1.50);
+ }
+ .pie__datos__img:hover {
+    transform:scale(1.25);
+ }
+ @media (max-width: 930px) {
+    .card-img-overlay{
+      color: transparent;
+    }
+    .pie__mapa{
+       display: none;
+    }
+ }
+ @media (max-width: 400px) {
+    .pie__datos{
+       border: 3px #2B4078 dashed;
+    }
+ }

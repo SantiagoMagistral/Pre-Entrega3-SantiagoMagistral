@@ -1,0 +1,24 @@
+  .productos{
+    background-color: map-get($map: $fondo, $key:bg-fondo );
+    padding-bottom: 10px;
+ }
+ .productos__titulo{
+    padding: 20px;
+    @extend %tipoletra;
+    font-size: x-large;
+ }
+ .tarjetas{
+    padding: 5px;
+ }
+
+ .card1:hover{
+   transform:scale(1.1);
+ }
+ .container {
+   gap: 30px;
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}

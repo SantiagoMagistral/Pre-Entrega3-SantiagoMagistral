@@ -1,0 +1,11 @@
+.letra{
+    font-family: 'EB Garamond', serif;
+ }
+ .productos__destacados{
+    background-color: map-get($map: $fondo, $key:bg-fondo );
+    padding-bottom: 25px;
+ }
+ .productos__destacados H2{
+   @extend %tipoletra;
+    padding: 20px 0px 30px 40px;
+ }

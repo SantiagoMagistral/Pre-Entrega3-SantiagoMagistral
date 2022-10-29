@@ -1,0 +1,19 @@
+{
+  "name": "3dmagi.-santiago-magistral",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoMagistral/3DMAGI-Magistral-Santiago.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoMagistral/3DMAGI-Magistral-Santiago/issues"
+  },
+  "homepage": "https://github.com/SantiagoMagistral/3DMAGI.-Magistral-Santiago#readme",
+  "description": ""
+}

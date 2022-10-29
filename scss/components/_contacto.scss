@@ -1,0 +1,14 @@
+ .info{
+   background-color: map-get($map: $fondo, $key:bg-fondo );
+ }
+ .info__titulo{
+    padding: 20px;
+    @extend %tipoletra;
+    font-size: x-large;
+ }
+ .red {
+    color: red;
+ }
+ .contacto{
+    color: #fff;
+ }
